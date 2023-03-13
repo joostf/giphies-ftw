@@ -1,0 +1,16 @@
+<%- include('partials/head') %>
+
+<h1><%= title %> </h1>
+
+<% giphies.forEach((giphy) => { %>
+    <a href="/giphy/<%= giphy.id %>">
+        <article class="entry">
+            <h2><%= giphy.title %></h2>
+            <img src="https://media.giphy.com/media/<%= giphy.id %>/giphy.gif" alt="<%= giphy.title %>}">
+        </article>
+    </a>
+<% }); %>
+
+<%- include('partials/footer') %>
+
+

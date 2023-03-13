@@ -1,0 +1,13 @@
+<%- include('partials/head') %>
+
+<% const {id, title} = giphy %>
+
+<h1>Giphies</h1>
+
+<article>
+    <h2><%= title %></h2>
+    <img src="https://media.giphy.com/media/<%= id %>/giphy.gif" class="large" alt="<%= title %>">
+</article>
+
+
+<%- include('partials/footer') %>

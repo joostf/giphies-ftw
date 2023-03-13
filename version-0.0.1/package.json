@@ -1,0 +1,17 @@
+{
+  "name": "node-example",
+  "version": "0.0.1",
+  "description": "example",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "joost",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.0"
+  },
+  "type": "module"
+}

@@ -1,0 +1,10 @@
+<%- include('partials/head') %>
+
+<h1>Giphy FTW!!</h1>
+
+<article>
+    <h2><%= giphy.title %></h2>
+    <img src="https://media.giphy.com/media/<%= giphy.id %>/giphy.gif" class="large"  alt="<%= giphy.title %>">    
+</article>
+
+<%- include('partials/footer') %>
